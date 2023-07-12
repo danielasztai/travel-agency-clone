@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>EasyTravel</title>
+    <script
+      defer
+      src="https://kit.fontawesome.com/8566ff9c70.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" defer src="/src/script.js"></script>
+  </head>
+  <body>
+    <div class="mobile-menu">
+      <a href="#">minta@gmail.com</a>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="mobile-nav">
+      <div class="nav-close">
+        <div class="close-bar"></div>
+        <div class="close-bar"></div>
+      </div>
+      <ul class="mobile-nav-items">
+        <li><a href="#">TOURS</a></li>
+        <li><a href="#">SIGHTSEEING</a></li>
+        <li><a href="#">ACTIVITIES</a></li>
+        <li><a href="#">PROMOTIONS</a></li>
+        <li><a href="#">HOTELS</a></li>
+        <li><a href="#">TRANSPORTATION</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <header>
+      <div class="container">
+        <div class="col-left">
+          <div class="email-link">
+            <i class="fa-sharp fa-regular fa-envelope"></i>
+            <a href="#">minta@gmail.com</a>
+          </div>
+          <ul>
+            <li><a href="#">TOURS</a></li>
+            <li><a href="#">SIGHTSEEING</a></li>
+            <li><a href="#">ACTIVITIES</a></li>
+            <li><a href="#">PROMOTIONS</a></li>
+          </ul>
+        </div>
+        <img src="src/img/center-logo.png" alt="" class="center-logo" />
+        <div class="col-right">
+          <div class="social-btns">
+            <span class="btns-1"><a href="#"><img src="src/img/icon-facebook-green.png" alt="" /></a>
+            <a href="#"><img src="src/img/icon-twitter-green.png" alt="" /></a>
+            <a href="#"><img src="src/img/icon-insta-green.png" alt="" /></a></span>
+            <span class="btns-2"><a href="#"><img src="src/img/icon-pinterest-green.png" alt="" /></a>
+            <a href="#"><img src="src/img/icon-youtube-green.png" alt="" /></a>
+            <a href="#"><img src="src/img/icon-linkedin-green.png" alt="" /></a></span>
+          </div>
+          <ul>
+            <li><a href="#">HOTELS</a></li>
+            <li><a href="#">TRANSPORTATION</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="sticky-nav hidden">
+      <div class="sticky-left">
+        <a href="#"><img src="src/img/dropdown-logo.png" alt="" /></a>
+        <p>Hungary</p>
+      </div>
+      <div class="sticky-center">
+        <img src="src/img/dropdown-image-1.png" alt="" class="hotel-dropdown-img"/>
+        <img src="src/img/dropdown-image-2.png" alt="" />
+        <img src="src/img/dropdown-image-3.png" alt="" />
+        <img src="src/img/dropdown-image-4.png" alt="" />
+      </div>
+      <div class="sticky-right">
+        <i class="fa-sharp fa-regular fa-envelope"></i>
+        <a href="#"><p>minta@gmail.com</p></a>
+      </div>
+      <div class="dropdown">
+        <div class="hidden-box"></div>
+        <div class="dropdown-hotel">
+          
+          <p>SEARCH FOR HOTELS</p>
+          <form class="dropdown-options">
+            <select name="country" id="country">
+              <option value="select">Select Country</option>
+              <option value="hungary">Hungary</option>
+            </select>
+            <select name="city" id="city">
+              <option value="select">Select City</option>
+              <option value="buk">Bük</option>
+              <option value="budapest">Budapest</option>
+              <option value="heviz">Hévíz</option>
+              <option value="sarvar">Sárvár</option>
+              <option value="visegrad">Visegrád</option>
+            </select>
+            <select name="type">
+              <option name="select">Select Type</option>
+              <option name="3-star">3 Star</option>
+              <option name="4-star">4 Star</option>
+              <option name="5-star">5 Star</option>
+            </select>
+            <input type="submit" value="SEARCH" class="submit-btn">
+          </form>
+        </div>
+        <div class="dropdown-tour-packages"></div>
+        <div class="dropdown-sightseeing"></div>
+        <div class="dropdown-travel activity"></div>
+      </div>
+    </div>
+
+    </div>
+    <div class="img-slider">
+      <div class="slide-img">
+        <img src="src/img/slider-img-1.png" alt="" />
+      </div>
+      <div class="slide-img">
+        <img src="src/img/slider-img-2.png" alt="" />
+      </div>
+      <div class="slide-img">
+        <img src="src/img/slider-img-3.png" alt="" />
+      </div>
+    </div>
+    <div class="visa">
+      <p>Looking for visa?</p>
+      <p>www.ivisa.com</p>
+    </div>
+    <div class="wrapper">
+      <section class="section-1">
+        <div class="check-wrapper">
+          <div class="form-container">
+            <h3>HUNGARY TRAVEL AGENCY</h3>
+            <form class="document-check">
+              <p class="form-p">Check Visa Requirements</p>
+              <select name="from" class="input-from">
+                <option value="" selected disabled hidden>From: Select a country</option>
+                <option>Sri Lanka -LK</option>
+              </select>
+              <select name="going-to" class="input-to">
+                <option value="" selected disabled hidden>Going to: Select a destination</option>
+              </select>
+              <input
+                type="submit"
+                value="Check document requirement"
+                class="input-submit"
+              />
+            </form>
+          </div>
+        </div>
+        <p class="check-description">
+          At Exploring Tourism, the leading Hungary travel agency, we outdo at
+          helping you get your trip planned. Not just trip, but exceptional
+          trips filled with exciting and life-enriching experiences. Our travel
+          agents are experts at handcrafting and coordinating complex
+          itineraries to Hungary
+        </p>
+      </section>
+      <div class="recommended-wrapper-both">
+        <h3>RECOMMENDED HUNGARY PACKAGES</h3>
+        <div class="recommended-wrapper-upper">
+          <div class="rec-box-1">
+            <img src="src/img/recommended-1.jpeg" alt="" />
+            <button class="price-btn">Price on Request</button>
+            <button class="info-btn">Guided Tour at Sissy Palace Tour</button>
+          </div>
+          <div class="rec-box-2">
+            <img src="src/img/recommended-2.jpeg" alt="" />
+            <button class="price-btn">Price on Request</button>
+            <button class="info-btn">Classical Budapest Tour</button>
+          </div>
+        </div>
+        <div class="recommended-wrapper-lower">
+          <div class="rec-box-3">
+            <img src="src/img/recommended-3.jpeg" alt="" />
+            <button class="price-btn">Price on Request</button>
+            <button class="info-btn">
+              Porcelain Museum And Manufacturer Tour
+            </button>
+          </div>
+          <div class="rec-box-4">
+            <img src="src/img/recommended-4.jpeg" alt="" />
+            <button class="price-btn">Price on Request</button>
+            <button class="info-btn">72h Budapest Card Tour</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="description-wrapper">
+      <div class="travel-description-1">
+        <h3>HUNGARY TRAVEL AGENT</h3>
+        <p>
+          Exploring Tourism is one of the most reliable and experienced travel
+          agency in Hungary. It helps you plan your trip to Hungary and helps
+          you gain an enriching life experience. With expert Hungary travel
+          agent, it <a href="#">offers customized tour packages</a> according to
+          your requirements and budget. Pack your bags and be ready to explore
+          Hungary with us.
+        </p>
+      </div>
+      <div class="travel-description-2">
+        <h3>HUNGARY TOUR OPERATOR</h3>
+        <p>
+          Travel to Hungary with Exploring Tourism to get the best travelling
+          experience. We have partnered with the best and experienced travel
+          agent to provide you the perfect and specialized tour package. They
+          plan your tour according your budget, duration, and interest. We also
+          help you with your airport transfer, guide,
+          <a href="#">hotel, sightseeing</a> and all kinds of
+          <a href="#">activities in Hungary</a>.
+        </p>
+      </div>
+      <div class="travel-description-3">
+        <h3>TOUR OPERATOR IN HUNGARY</h3>
+        <p>
+          Planning to spend your holidays in Hungary? Contact Exploring Tourism
+          to plan the best trip to Hungary for you. It is one of the well-known
+          and reliable travel agency in Hungary with association with the best
+          travel agent to plan your dream trip to Hungary within your budget.
+          Send your travel enquiry with more details to our local Tour Operator.
+        </p>
+      </div>
+    </div>
+    <div class="visa-2">
+      <p>
+        Online Travel Visa Check - Find Visa Information for all Countries |
+      </p>
+      <p>www.ivisa.com</p>
+    </div>
+    <footer class="section-2">
+      <div class="places-to-visit">
+        <h3 class="title">HUNGARY PLACES TO VISIT</h3>
+        <ul>
+          <li>
+            <figcaption class="text-img-1">Budapest - The Capital Of Hungary</figcaption>
+            <img src="src/img/footer-img-1.png" class="footer-img-1" alt="" title="Budapest - The Capital Of Hungary"/>
+      </li>
+      <li>
+        <figcaption class="text-img-1">Pannonhalma-the Legendary Archabbey</figcaption>
+        <img src="src/img/footer-img-2.png" class="footer-img-1" alt="" title="Pannonhalma-the Legendary Archabbey">
+      </li>
+        <li>
+          <figcaption class="text-img-1">Debrecen-the Calvinist Rome</figcaption>
+          <img src="src/img/footer-img-3.png" class="footer-img-1" alt="" title="Debrecen-the Calvinist Rome">
+        </li>
+        </ul>
+      </div>
+      <div class="our-office">
+        <h3 class="title">OUR OFFICE</h3>
+        <p class="exploring">Exploring Tourism</p>
+        <p class="footer-country">Hungary</p>
+        <p>E-mail:</p>
+        <p>minta@gmail.com</p>
+        <div class="newsletter-signup">
+        <h3>NEWSLETTER SIGNUP</h3>
+        <form class="newsletter">
+          <input type="text" placeholder="  Your Name" class="newsletter-input">
+          <input type="text" placeholder="  Email Address" class="newsletter-input">
+          <div class="verification">
+          <p>Sum of 10 + 8 =</p>
+          <input type="number" placeholder="  Enter Verification Code" class="newsletter-input">
+          </div>
+          <input type="submit" class="submit-btn-footer" value="SUBMIT">
+        </form>
+        </div>
+        <p class="title site-map-title">SITE MAP</p>
+        <div class="site-map">
+          <div class="left-col">
+            <ul>
+              <li><text>1</text><a href="#">Tours</a></li>
+              <li><text>2</text><a href="#">Sightseeing</a></li>
+              <li><text>3</text><a href="#">Activities</a></li>
+              <li><text>4</text><a href="#">Hotels</a></li>
+            </ul>
+          </div>
+          <div class="right-col">
+            <ul>
+            <li><text>5</text><a href="#">About Us</a></li>
+            <li><text>6</text><a href="#">Special Services</a></li>
+            <li><text>7</text><a href="#">Places to Visit</a></li>
+            <li><text>8</text><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="special-offers">
+        <h3 class="title">SPECIAL OFFERS</h3>
+        <img src="src/img/footer-img-4.png" alt="" class="footer-ivisa-img">
+        <div class="photo-gallery">
+          <h3 class="title">PHOTO GALLERY</h3>
+          <div class="gallery">
+            <div class="gallery-row">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-1.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-2.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-3.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-4.jpg" alt="" class="gallery-img">
+            </div>
+            <div class="gallery-row">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-5.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-6.png" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-7.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-8.jpg" alt="" class="gallery-img">
+            </div>
+            <div class="gallery-row">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-9.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-10.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-11.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-12.jpg" alt="" class="gallery-img">
+            </div>
+            <div class="gallery-row">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-13.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-14.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-15.jpg" alt="" class="gallery-img">
+            <img src="src/img/photo-gallery-tiny-png/photo-gallery-16.jpg" alt="" class="gallery-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="gallery-blur">
+      <div class="gallery-fullscreen-img"></div>
+    </div>
+    <div class="copyright-footer">
+      <p>Copyright © travelohungary.com All Rights Reserved | A Network of <a href="#">Exploring Tourism</a> |</p>
+      <p class="copyright-footer-right"><a href="#">Privacy Policy<a> | <a href="#">Disclaimer</a></p>
+    </div>
+    <div class="sticky-sidebar">
+      <ul>
+        <li class="fb-icon"><i class="fa-brands fa-facebook-f"></i></li>
+        <li class="twitter-icon"><i class="fa-brands fa-twitter"></i></li>
+        <li class="email-icon"><i class="fa-regular fa-envelope"></i></li>
+        <li class="pinterest-icon"><i class="fa-brands fa-pinterest-p"></i></li>
+        <li class="plus-icon"><i class="fa-sharp fa-solid fa-plus"></i></li>
+      </ul>
+    </div>
+      <a href="#" class="sticky-enquiry">Send Us Your Travel Enquiry</a>
+  </body>
+</html>
