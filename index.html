@@ -11,7 +11,7 @@
       src="https://kit.fontawesome.com/8566ff9c70.js"
       crossorigin="anonymous"
     ></script>
-    <script type="module" defer src="/src/script.js"></script>
+    <script defer src="/src/script.js"></script>
   </head>
   <body>
     <div class="mobile-menu">
@@ -55,12 +55,25 @@
         <img src="src/img/center-logo.png" alt="" class="center-logo" />
         <div class="col-right">
           <div class="social-btns">
-            <span class="btns-1"><a href="#"><img src="src/img/icon-facebook-green.png" alt="" /></a>
-            <a href="#"><img src="src/img/icon-twitter-green.png" alt="" /></a>
-            <a href="#"><img src="src/img/icon-insta-green.png" alt="" /></a></span>
-            <span class="btns-2"><a href="#"><img src="src/img/icon-pinterest-green.png" alt="" /></a>
-            <a href="#"><img src="src/img/icon-youtube-green.png" alt="" /></a>
-            <a href="#"><img src="src/img/icon-linkedin-green.png" alt="" /></a></span>
+            <span class="btns-1"
+              ><a href="#"
+                ><img src="src/img/icon-facebook-green.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="src/img/icon-twitter-green.png" alt=""
+              /></a>
+              <a href="#"><img src="src/img/icon-insta-green.png" alt="" /></a
+            ></span>
+            <span class="btns-2"
+              ><a href="#"
+                ><img src="src/img/icon-pinterest-green.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="src/img/icon-youtube-green.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="src/img/icon-linkedin-green.png" alt="" /></a
+            ></span>
           </div>
           <ul>
             <li><a href="#">HOTELS</a></li>
@@ -77,7 +90,11 @@
         <p>Hungary</p>
       </div>
       <div class="sticky-center">
-        <img src="src/img/dropdown-image-1.png" alt="" class="hotel-dropdown-img"/>
+        <img
+          src="src/img/dropdown-image-1.png"
+          alt=""
+          class="hotel-dropdown-img"
+        />
         <img src="src/img/dropdown-image-2.png" alt="" />
         <img src="src/img/dropdown-image-3.png" alt="" />
         <img src="src/img/dropdown-image-4.png" alt="" />
@@ -89,7 +106,6 @@
       <div class="dropdown">
         <div class="hidden-box"></div>
         <div class="dropdown-hotel">
-          
           <p>SEARCH FOR HOTELS</p>
           <form class="dropdown-options">
             <select name="country" id="country">
@@ -105,20 +121,18 @@
               <option value="visegrad">Visegrád</option>
             </select>
             <select name="type">
-              <option name="select">Select Type</option>
-              <option name="3-star">3 Star</option>
-              <option name="4-star">4 Star</option>
-              <option name="5-star">5 Star</option>
+              <option id="select">Select Type</option>
+              <option id="3-star">3 Star</option>
+              <option id="4-star">4 Star</option>
+              <option id="5-star">5 Star</option>
             </select>
-            <input type="submit" value="SEARCH" class="submit-btn">
+            <input type="submit" value="SEARCH" class="submit-btn" />
           </form>
         </div>
         <div class="dropdown-tour-packages"></div>
         <div class="dropdown-sightseeing"></div>
         <div class="dropdown-travel activity"></div>
       </div>
-    </div>
-
     </div>
     <div class="img-slider">
       <div class="slide-img">
@@ -143,11 +157,15 @@
             <form class="document-check">
               <p class="form-p">Check Visa Requirements</p>
               <select name="from" class="input-from">
-                <option value="" selected disabled hidden>From: Select a country</option>
+                <option value="" selected disabled hidden>
+                  From: Select a country
+                </option>
                 <option>Sri Lanka -LK</option>
               </select>
               <select name="going-to" class="input-to">
-                <option value="" selected disabled hidden>Going to: Select a destination</option>
+                <option value="" selected disabled hidden>
+                  Going to: Select a destination
+                </option>
               </select>
               <input
                 type="submit"
@@ -241,17 +259,44 @@
         <h3 class="title">HUNGARY PLACES TO VISIT</h3>
         <ul>
           <li>
-            <figcaption class="text-img-1">Budapest - The Capital Of Hungary</figcaption>
-            <img src="src/img/footer-img-1.png" class="footer-img-1" alt="" title="Budapest - The Capital Of Hungary"/>
-      </li>
-      <li>
-        <figcaption class="text-img-1">Pannonhalma-the Legendary Archabbey</figcaption>
-        <img src="src/img/footer-img-2.png" class="footer-img-1" alt="" title="Pannonhalma-the Legendary Archabbey">
-      </li>
-        <li>
-          <figcaption class="text-img-1">Debrecen-the Calvinist Rome</figcaption>
-          <img src="src/img/footer-img-3.png" class="footer-img-1" alt="" title="Debrecen-the Calvinist Rome">
-        </li>
+            <figure>
+              <figcaption class="text-img-1">
+                Budapest - The Capital Of Hungary
+              </figcaption>
+              <img
+                src="src/img/footer-img-1.png"
+                class="footer-img-1"
+                alt=""
+                title="Budapest - The Capital Of Hungary"
+              />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <figcaption class="text-img-1">
+                Pannonhalma-the Legendary Archabbey
+              </figcaption>
+              <img
+                src="src/img/footer-img-2.png"
+                class="footer-img-1"
+                alt=""
+                title="Pannonhalma-the Legendary Archabbey"
+              />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <figcaption class="text-img-1">
+                Debrecen-the Calvinist Rome
+              </figcaption>
+              <img
+                src="src/img/footer-img-3.png"
+                class="footer-img-1"
+                alt=""
+                title="Debrecen-the Calvinist Rome"
+              />
+            </figure>
+          </li>
         </ul>
       </div>
       <div class="our-office">
@@ -261,66 +306,166 @@
         <p>E-mail:</p>
         <p>minta@gmail.com</p>
         <div class="newsletter-signup">
-        <h3>NEWSLETTER SIGNUP</h3>
-        <form class="newsletter">
-          <input type="text" placeholder="  Your Name" class="newsletter-input">
-          <input type="text" placeholder="  Email Address" class="newsletter-input">
-          <div class="verification">
-          <p>Sum of 10 + 8 =</p>
-          <input type="number" placeholder="  Enter Verification Code" class="newsletter-input">
-          </div>
-          <input type="submit" class="submit-btn-footer" value="SUBMIT">
-        </form>
+          <h3>NEWSLETTER SIGNUP</h3>
+          <form class="newsletter">
+            <input
+              type="text"
+              placeholder="  Your Name"
+              class="newsletter-input"
+            />
+            <input
+              type="text"
+              placeholder="  Email Address"
+              class="newsletter-input"
+            />
+            <div class="verification">
+              <p>Sum of 10 + 8 =</p>
+              <input
+                type="number"
+                placeholder="  Enter Verification Code"
+                class="newsletter-input"
+              />
+            </div>
+            <input type="submit" class="submit-btn-footer" value="SUBMIT" />
+          </form>
         </div>
         <p class="title site-map-title">SITE MAP</p>
         <div class="site-map">
           <div class="left-col">
             <ul>
-              <li><text>1</text><a href="#">Tours</a></li>
-              <li><text>2</text><a href="#">Sightseeing</a></li>
-              <li><text>3</text><a href="#">Activities</a></li>
-              <li><text>4</text><a href="#">Hotels</a></li>
+              <li>
+                <p>1</p>
+                <a href="#">Tours</a>
+              </li>
+              <li>
+                <p>2</p>
+                <a href="#">Sightseeing</a>
+              </li>
+              <li>
+                <p>3</p>
+                <a href="#">Activities</a>
+              </li>
+              <li>
+                <p>4</p>
+                <a href="#">Hotels</a>
+              </li>
             </ul>
           </div>
           <div class="right-col">
             <ul>
-            <li><text>5</text><a href="#">About Us</a></li>
-            <li><text>6</text><a href="#">Special Services</a></li>
-            <li><text>7</text><a href="#">Places to Visit</a></li>
-            <li><text>8</text><a href="#">Sitemap</a></li>
+              <li>
+                <p>5</p>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <p>6</p>
+                <a href="#">Special Services</a>
+              </li>
+              <li>
+                <p>7</p>
+                <a href="#">Places to Visit</a>
+              </li>
+              <li>
+                <p>8</p>
+                <a href="#">Sitemap</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="special-offers">
         <h3 class="title">SPECIAL OFFERS</h3>
-        <img src="src/img/footer-img-4.png" alt="" class="footer-ivisa-img">
+        <img src="src/img/footer-img-4.png" alt="" class="footer-ivisa-img" />
         <div class="photo-gallery">
           <h3 class="title">PHOTO GALLERY</h3>
           <div class="gallery">
             <div class="gallery-row">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-1.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-2.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-3.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-4.jpg" alt="" class="gallery-img">
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-1.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-2.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-3.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-4.jpg"
+                alt=""
+                class="gallery-img"
+              />
             </div>
             <div class="gallery-row">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-5.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-6.png" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-7.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-8.jpg" alt="" class="gallery-img">
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-5.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-6.png"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-7.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-8.jpg"
+                alt=""
+                class="gallery-img"
+              />
             </div>
             <div class="gallery-row">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-9.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-10.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-11.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-12.jpg" alt="" class="gallery-img">
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-9.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-10.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-11.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-12.jpg"
+                alt=""
+                class="gallery-img"
+              />
             </div>
             <div class="gallery-row">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-13.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-14.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-15.jpg" alt="" class="gallery-img">
-            <img src="src/img/photo-gallery-tiny-png/photo-gallery-16.jpg" alt="" class="gallery-img">
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-13.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-14.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-15.jpg"
+                alt=""
+                class="gallery-img"
+              />
+              <img
+                src="src/img/photo-gallery-tiny-png/photo-gallery-16.jpg"
+                alt=""
+                class="gallery-img"
+              />
             </div>
           </div>
         </div>
@@ -330,8 +475,13 @@
       <div class="gallery-fullscreen-img"></div>
     </div>
     <div class="copyright-footer">
-      <p>Copyright © travelohungary.com All Rights Reserved | A Network of <a href="#">Exploring Tourism</a> |</p>
-      <p class="copyright-footer-right"><a href="#">Privacy Policy<a> | <a href="#">Disclaimer</a></p>
+      <p>
+        Copyright © travelohungary.com All Rights Reserved | A Network of
+        <a href="#">Exploring Tourism</a> |
+      </p>
+      <p class="copyright-footer-right">
+        <a href="#">Privacy Policy</a> | <a href="#">Disclaimer</a>
+      </p>
     </div>
     <div class="sticky-sidebar">
       <ul>
@@ -342,6 +492,6 @@
         <li class="plus-icon"><i class="fa-sharp fa-solid fa-plus"></i></li>
       </ul>
     </div>
-      <a href="#" class="sticky-enquiry">Send Us Your Travel Enquiry</a>
+    <a href="#" class="sticky-enquiry">Send Us Your Travel Enquiry</a>
   </body>
 </html>

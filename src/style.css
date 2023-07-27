@@ -523,6 +523,11 @@ header i {
 .footer-img-1 {
   width: 20rem;
   height: 22vh;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -530,6 +535,7 @@ header i {
   position: absolute;
   font-size: 1.1rem;
   z-index: 1;
+  bottom: 0;
 }
 
 .places-to-visit li {
@@ -653,6 +659,7 @@ header i {
 }
 
 .site-map li {
+  display: flex;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -670,11 +677,12 @@ header i {
   transition: color 0.5s;
 }
 
-.site-map li text {
+.site-map li p {
   border: 1px solid white;
   padding: 4px 8px;
   border-radius: 50%;
   color: white;
+  width: 30px;
 }
 
 .site-map .right-col text {
@@ -996,5 +1004,9 @@ header i {
 
   .photo-gallery img {
     width: 4rem;
+  }
+
+  .footer-img-1 {
+    width: 300px;
   }
 }
